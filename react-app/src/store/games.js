@@ -36,7 +36,6 @@ export const searchRequest = (data) => async (dispatch) => {
 export const getGame = (gameId) => async (dispatch) => {
     const res = await fetch(`/api/games/${gameId}`);
     if (res.ok){
-        console.log('MOIZ AHMAD, MOIZZZZ AHMAD.... MOIZ AHMAD...')
         const game = await res.json();
         await dispatch((addGame(game)))
     }

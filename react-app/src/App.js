@@ -13,6 +13,7 @@ import {getCategories} from './store/categories'
 import {getGenres} from './store/genres'
 import Footer from './components/Footer';
 import AboutUs from './components/About-Us/about-us';
+import NotFound from './components/NotFound';
 
 
 
@@ -65,11 +66,11 @@ function App() {
           <Route path='/' exact={true}>
             <Home user={user}/>
           </Route>
-          <Route PATH="/" exact={true}>
+          <Route path="/about-us" exact={true}>
             <AboutUs/>
           </Route>
           <Route>
-            <h1>404 not found.</h1>
+            <NotFound/>
           </Route>
         </Switch>
       </div> 

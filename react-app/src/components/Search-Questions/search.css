@@ -5,7 +5,8 @@
     border: 1px solid whitesmoke;
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.253);
     overflow-y: hidden;
 }
 
@@ -23,7 +24,6 @@
 .startOverButton:hover{
     color: rgb(207, 100, 83);
     cursor: pointer;
-    backdrop-filter: blur(1.5px);
     transition: .6s;
 
 }
@@ -52,6 +52,8 @@
     color: rgb(207, 100, 83);
     cursor: pointer;
     transition: color .37s;
+    background-color: transparent;
+
 }
 
 .checkBoxStyling:checked{
@@ -62,6 +64,9 @@
 
 .checkBoxStyling:hover{
     cursor: pointer;
+    border: 2px solid rgba(219, 212, 212, 0.5);
+    transition: border .2s linear
+
 }
 
 .categoryQuestion{
@@ -137,6 +142,9 @@
 .secondCatNext{
     margin-bottom: 15px;
 }
+.secondCatNext:hover{
+    background-color: transparent;
+}
 
 .rightArr{
     margin-left: 10px;
@@ -166,6 +174,8 @@
     cursor: pointer;
     color: rgb(240, 203, 136);
     transition: .3s color;
+    background-color: transparent;
+
 }
 
 .specificResult{

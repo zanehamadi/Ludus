@@ -29,7 +29,6 @@ def game(game_id):
 @game_routes.route('/results', methods=['POST'])
 def response():
     data = request.get_json()
-    print('DATA', data)
     categories = data['category']
     genres = data['genre']
     allResults = []
@@ -39,8 +38,9 @@ def response():
         allResults.append((Genre.query.get(genre)).games)
     searchResults = set.intersection(*map(set,allResults))
     results = {'Results':[game.to_dict() for game in searchResults]}
-    print(results)
     return results
+
+
 
 
 

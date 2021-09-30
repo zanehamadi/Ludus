@@ -18,11 +18,12 @@
     width: calc(var(--body-width) / 2);
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .splashPage a{
     text-decoration: none;
-    font-size: 32px;
+    font-size: 42px;
     color: whitesmoke;
 }
 
@@ -43,7 +44,6 @@
 
 #welcomeMessage{
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: 100;
     color: whitesmoke;

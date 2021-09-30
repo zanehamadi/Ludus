@@ -39,7 +39,7 @@ As said for Python, same goes for Flask SQLAlchemy. I think these two helped man
 
 ### Steam API
 
-When talking about React, I brought up how it was one of the vital component of my website. The reason I didn't say it was THE most vital component is because of the Steam API. This data is basically my entire website, the purpose of the website is to find real games you want to play, so I buckled down and tried to tame the beast that is this API. With a lot of trial and error, I was able to seed over 11 thousand games into my data base with the categories and genres linked to them. If you want to learn more about how I fetched this data, visit [Steam API data information](https://github.com/zanehamadi/Ludus/wiki/Steam-API-data-information) on the Ludus wiki!
+When talking about React, I brought up how it was one of the vital component of my website. The reason I didn't say it was THE most vital component is because of the Steam API. This data is basically my entire website, the purpose of the website is to find real games you want to play, so I buckled down and tried to tame the beast that is this API. With a lot of trial and error, I was able to seed over 11 thousand games into my data base with the categories and genres linked to them. If you want to learn more about how I fetched this data, visit [Steam API data information](https://github.com/zanehamadi/Ludus/wiki/Steam-API-data-information) on the Ludus wiki! This was a bulk of the time I put into this website, and was a lot of fun! Maybe not a lot, but decently fun! It was rough, man.
 
 ## Code preview
 

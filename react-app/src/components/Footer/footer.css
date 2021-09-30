@@ -1,0 +1,43 @@
+.footer-images{
+    background-color: transparent;
+    height: 100%;
+    z-index: 3;
+}
+.footer{
+    height: var(--footer-height);
+    position: fixed;
+    bottom: 0px;
+    width: 50vw;
+    margin:0;
+    background: transparent;
+    display: flex;
+    justify-content:space-evenly;
+    border: 2px solid whitesmoke;
+    backdrop-filter: blur(6px);
+    align-items: center;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navIcons{
+    color: rgb(209, 92, 75);
+}
+
+.navIcons:hover{
+    color: whitesmoke;
+    transition: color .59s;
+}
+
+#aboutUs{
+    text-decoration: none;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+#aboutUs:hover{
+
+    color: rgb(209, 92, 75);
+    transition: color .59s;
+}

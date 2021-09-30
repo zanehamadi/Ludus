@@ -1,0 +1,46 @@
+.about-us-div{
+    width: var(--body-width);
+    height: var(--body-height);
+    backdrop-filter: blur(8px);
+    border: 1px solid white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom:1vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+
+}
+
+.about-us-div::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+
+.about-us-div::-webkit-scrollbar-thumb {
+    background-color: rgba(231, 109, 64, 0.3);
+    outline: 1px solid white;  
+}
+
+.about-us-paragraphs{
+
+    padding-left: 2vw;
+}
+
+.about-us-paragraphs a{
+    text-decoration: none;
+    color: rgb(209, 92, 75);
+}
+
+.about-us-paragraphs a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+.about-us-headers{
+
+}

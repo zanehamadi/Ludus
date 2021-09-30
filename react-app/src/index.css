@@ -1,0 +1,43 @@
+:root{
+    --navbar-height:75px;
+    --footer-height:10%;
+    --body-height: calc(80vh - var(--footer-height));
+    --body-width: 40vw;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    
+}
+#root{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    position: absolute;
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+    margin:0;
+    padding: var(--navbar-height) 3% 13.222%;
+    background-image: url("./LUDUS-BG-VISOR.gif");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+
+}
+
+html{
+    overflow-y: hidden;
+}
+
+
+

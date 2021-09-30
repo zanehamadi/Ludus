@@ -1,0 +1,115 @@
+.filled{
+    background-color: aliceblue;
+}
+
+.profileContainer{
+    width: var(--body-width);
+    height: var(--body-height);
+    overflow-y: scroll;
+    border: 1px solid white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+
+.profileContainer::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    /* border-left: 1px solid white; */
+}
+
+.profileContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(228, 77, 22, 0.3);
+    outline: 1px solid white;  
+}
+
+.gamesLists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gameList{
+    width: 15rem;
+    /* border-top: 1px solid white; */
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gameList button{
+    color: white;
+    border: none;
+
+}
+
+.gameList button:hover{
+    color: rgb(255, 214, 206);
+    transition: color 1s;
+    cursor: pointer;
+}
+
+#userProfileHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-shadow: 3px 3px rgb(47, 26, 2);
+}
+
+.fa-star:hover{
+    color: rgb(243, 185, 174);
+    cursor: pointer;
+    transition: .3s color ;
+}
+
+.rated{
+    color: rgb(255, 199, 134)
+}
+
+.rated:hover{
+    color: white;
+}
+.specificGame{
+    display: flex;
+    flex-direction: column;
+    width: 12em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(248, 212, 170, 0.2)
+
+}
+
+.gameListHeader{
+    text-shadow: 2px 2px rgb(47, 26, 2);
+}
+
+.gamesListHeader{
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(245, 245, 245, .5);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.gameHeader{
+    text-align: center;
+}
+
+#playingList{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+
+
+
+
+

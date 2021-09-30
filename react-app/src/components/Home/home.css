@@ -1,0 +1,82 @@
+.homePage a{
+    text-decoration: none;
+    font-size: 32px;
+    color: whitesmoke;
+}
+
+.homePage a:hover{
+    color: rgb(209, 92, 75);
+    transition: color .5s;
+
+}
+
+.splashPage{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(var(--body-height) / 2);
+    width: calc(var(--body-width) / 2);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.splashPage a{
+    text-decoration: none;
+    font-size: 32px;
+    color: whitesmoke;
+}
+
+.splashPage a:hover{
+    color: rgb(209, 92, 75);
+    transition: color .5s;
+}
+
+.beginSearchContainer{
+    width: 20em;
+
+}
+.beginSearchContainer:hover{
+    backdrop-filter: blur(3px);
+    transition: backdrop-filter .5s;
+
+}
+
+#welcomeMessage{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    color: whitesmoke;
+    text-shadow: 4px 4px rgb(34, 17, 1);
+    
+}
+
+#welcomeMessage:hover{
+    cursor: context-menu;
+}
+
+.homeSplashContainer{
+    width: var(--body-width);
+    height: var(--body-height);
+}
+
+.beginSearchButton{
+    text-shadow: 4px 4px rgb(34, 17, 1);
+}
+
+.splashText{
+    text-shadow: 4px 4px rgb(34, 17, 1);
+
+}
+
+#splashParagraph{
+    text-shadow: 4px 4px rgb(34, 17, 1);
+}
+
+#splashParaDiv{
+    margin: 1vh;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

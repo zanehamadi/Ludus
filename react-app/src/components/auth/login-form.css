@@ -1,0 +1,53 @@
+.loginDiv{
+    display:flex;
+    flex-direction: column;
+    width: calc(var(--body-width) / 1.5);
+    height: var(--body-height);
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    align-items: center;
+    border: 1px solid white;
+    backdrop-filter: blur(6px);
+}
+
+
+.loginDiv button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-top: 2em;
+
+}
+
+.loginForm *{
+    color: white;
+}
+
+
+.loginButton:hover{
+    color: rgb(209, 92, 75);
+    text-shadow: 1px 1px 5px black;
+    cursor: pointer;
+}
+
+.loginDivContent{
+
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+
+.inputField::placeholder{
+    font-size: .6vw;
+    color: rgba(219, 169, 161, 0.5);
+}
+
+.inputField{
+    border: 1px solid rgba(255, 255, 255, 0.596);
+}
+
+.validationDiv{
+    color: white;
+}

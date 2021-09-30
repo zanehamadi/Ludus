@@ -1,0 +1,204 @@
+.questionsResultsContainer{
+    width: var(--body-width);
+    height: var(--body-height);
+    overflow-x: hidden;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+    overflow-y: hidden;
+}
+
+
+.startOverButton{
+    background: transparent;
+    color: whitesmoke;
+    border: none;
+    width:fit-content;
+    height: 3em;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.startOverButton:hover{
+    color: rgb(207, 100, 83);
+    cursor: pointer;
+    backdrop-filter: blur(1.5px);
+    transition: .6s;
+
+}
+
+
+#firstCat{
+    overflow-x: hidden;
+}
+
+.checkBoxStyling{
+    appearance: none;
+    border: 2px solid whitesmoke;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 1em;
+}
+
+.skipButton{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.skipButton:hover{
+    color: rgb(207, 100, 83);
+    cursor: pointer;
+    transition: color .37s;
+}
+
+.checkBoxStyling:checked{
+    background-color: rgba(241, 72, 46, 0.57);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.checkBoxStyling:hover{
+    cursor: pointer;
+}
+
+.categoryQuestion{
+    width: calc(var(--body-width) / 2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+#secondCat{
+    overflow-y: scroll;
+    height: 100%;
+    border-top: 1px solid white;
+    width: 100%;
+
+}
+
+#secondCat::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    /* border-left: 1px solid white; */
+}
+
+#secondCat::-webkit-scrollbar-thumb {
+    background-color: rgba(228, 77, 22, 0.3);
+    outline: 1px solid white;
+  }
+
+.genreSelection{
+    overflow-y: scroll;
+    height: 100%;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.genreSelection::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    /* border-left: 1px solid white; */
+}
+
+.genreSelection::-webkit-scrollbar-thumb {
+    background-color: rgba(228, 77, 22, 0.3);
+    outline: 1px solid white;
+  }
+
+
+
+.resultContainer{
+    overflow-y: scroll;
+    height: 100%;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.resultContainer::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    /* border-left: 1px solid white; */
+}
+
+.resultContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(228, 77, 22, 0.3);
+    outline: 1px solid white;
+  }
+
+
+.searchText{
+    margin-left: 15px;
+}
+
+.secondCatNext{
+    margin-bottom: 15px;
+}
+
+.rightArr{
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+#steamLink{
+    color: white;
+    text-decoration: none;
+}
+
+#steamLink:hover{
+    color: rgb(223, 90, 41);
+    transition: color .4s;
+}
+
+.gameListSearchButton{
+    background-color: transparent;
+    border: none;
+    font-weight: 200;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.gameListSearchButton:hover{
+    cursor: pointer;
+    color: rgb(240, 203, 136);
+    transition: .3s color;
+}
+
+.specificResult{
+    margin-bottom: 115px;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.userListButtonsContainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0%;
+}
+
+#rocketGif{
+    background-color: transparent;
+    align-self: center
+}
+
+.loadingMessage{
+    align-self: center;
+    margin-left: 30px;
+}
+
+#gameName{
+    text-shadow: 2px 2px rgb(47, 26, 2);
+}
+
+.headerImg{
+    border: 1px solid white;
+    width: 462px;
+    height: 217px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.349);
+
+}

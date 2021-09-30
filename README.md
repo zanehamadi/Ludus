@@ -51,4 +51,42 @@ Something I had to learn for this website, which I've never done before, is make
 ![Initial useState variable](https://i.imgur.com/bxUTIua.png)
 
 
+### Updating and adding to my useState variable
+
+First set of Categories(hard coded so it forces those three to display first)
+![Categories 1](https://i.imgur.com/rBaTdOU.png)
+
+Optional second set of Categories
+
+![Categories 2](https://i.imgur.com/GzMHMV6.png)
+
+
+Genres
+
+![Genres](https://i.imgur.com/ikfAaXQ.png)
+
+
+### Once the user has inputed their filters, this async dispatch is fired off, waiting for a response. While there is no response, a loading screen is displayed.
+
+Initial dispatch
+![Dispatch](https://i.imgur.com/1U2Hm1L.png)
+
+
+Redux handling the POST request
+
+![Redux handling search](https://i.imgur.com/OHgDv57.png)
+
+
+### Backend filtering for the search.
+
+Python filters the request body in the back end, and as a response, returns the relevant games. 
+![Python filtering](https://i.imgur.com/EwYlkKT.png)
+
+
+
+## Future plans for the website
+
+This is a website that I've wanted to make for a long time. Before I started my journey as a developer, I wanted an easier way to find games to play. My future plans for this website is to have a more indepth rendering of the Steam API. As it stands, due to API limitations and time restrictions, I couldn't have a dynamic API that fetched data in real time. My plan is to incorperate that, and display game information that show when games are on sale and user defined tags. I also want to add other platforms for this website, like Origin and uPlay, but one step at a time.
+
+
 

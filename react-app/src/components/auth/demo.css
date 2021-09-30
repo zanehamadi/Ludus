@@ -1,0 +1,16 @@
+#demoButton{
+    text-decoration:none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 5em;
+    text-shadow: 4px 4px black;
+    font-weight:700;
+}
+
+#demoButton:hover{
+    text-shadow: 1px 1px 20px black;
+    transition: text-shadow .3s;
+    cursor: pointer;
+}

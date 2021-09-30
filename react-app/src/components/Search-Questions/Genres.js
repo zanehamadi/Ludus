@@ -1,5 +1,5 @@
 import {searchRequest} from '../../store/games'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { useState } from "react"
 
 function Genres({filters, setFilters, setCheckGenres, genres, setResults, setResultsLoaded}){
@@ -39,7 +39,6 @@ function Genres({filters, setFilters, setCheckGenres, genres, setResults, setRes
 
     return(
         <div className="genreSelection">
-            {console.log(filters)}
             <h2 className="searchText">Genres</h2>
             <h4 className="searchText">Please pick a minimum of two</h4>
             {validation && <h4 className="searchText">Please enter atleast two genres.</h4>}

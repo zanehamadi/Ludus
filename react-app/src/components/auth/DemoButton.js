@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
 import * as sessionActions from '../../store/session';
+import './demo.css'
 
 
 const DemoButton = () => {
@@ -14,7 +14,7 @@ const DemoButton = () => {
         return dispatch(sessionActions.login(credential, password)) }
 
     return (
-            <Link onClick={demoLogin}>DEMO</Link >
+            <span onClick={demoLogin} id="demoButton">DEMO</span>
     )
 }
 

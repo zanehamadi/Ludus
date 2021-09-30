@@ -69,6 +69,7 @@ Genres
 ### Once the user has inputed their filters, this async dispatch is fired off, waiting for a response. While there is no response, a loading screen is displayed.
 
 Initial dispatch
+
 ![Dispatch](https://i.imgur.com/1U2Hm1L.png)
 
 

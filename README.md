@@ -46,6 +46,7 @@ When talking about React, I brought up how it was one of the vital component of 
 Something I had to learn for this website, which I've never done before, is make a filtering system in the backend. I've always copped out and transfered all my seeder data to the front end using Redux and filtered through it through a series of useEffects and useStates, but since trying to fetch ALL my data(with their associations and all) to my front end took over 3 minutes, I had to buckle down and learn. This was an experience, but it was extremely fun! Here is the code snippets for that:
 
 
+### Initial useState variable, to store the categories and genres in a key:value pairing, allowing for a easier JSON.stringify() experience to send to the backend.
 
 ![Initial useState variable](https://i.imgur.com/bxUTIua.png)
 

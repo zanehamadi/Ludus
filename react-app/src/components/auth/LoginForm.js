@@ -41,7 +41,6 @@ const LoginForm = () => {
         <input
           name='email'
           type='text'
-          placeholder='starman42@galacticmail.com'
           value={email}
           onChange={updateEmail}
           className="inputField loginDivContent"
@@ -50,7 +49,6 @@ const LoginForm = () => {
         <input
           name='password'
           type='password'
-          placeholder='Zorg1412!'
           value={password}
           onChange={updatePassword}
           className="inputField loginDivContent"

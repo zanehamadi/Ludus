@@ -10,12 +10,19 @@
 
 }
 
+.homePage{
+    text-align: center;
+    backdrop-filter: blur(2px);
+
+    
+}
+
 .splashPage{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    height: calc(var(--body-height) / 2);
-    width: calc(var(--body-width) / 2);
+    height: calc(var(--body-height) / 1.5);
+    width: calc(var(--body-width) / 1.1);
     justify-content: space-around;
     align-items: center;
     
@@ -32,10 +39,6 @@
     transition: color .5s;
 }
 
-.beginSearchContainer{
-    width: 20em;
-
-}
 .beginSearchContainer:hover{
     backdrop-filter: blur(3px);
     transition: backdrop-filter .5s;
@@ -60,8 +63,17 @@
     height: var(--body-height);
 }
 
-.beginSearchButton{
+#beginSearchButton{
     text-shadow: 4px 4px rgb(34, 17, 1);
+    font-size: 3rem;
+    color:rgb(209, 92, 75)
+
+
+}
+
+#beginSearchButton:hover{
+    color:white;
+    transition: color .5s
 }
 
 .splashText{
@@ -71,12 +83,28 @@
 
 #splashParagraph{
     text-shadow: 4px 4px rgb(34, 17, 1);
+    font-size: 1.4rem;
+    line-height: 2.2rem;
 }
 
 #splashParaDiv{
+    display: flex;
     margin: 1vh;
     text-align: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(3px);
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+#beginSearch{
+    font-size: 5rem;
+    color: rgb(209, 92, 75);
+    
+}
+
+
+#beginSearch:hover{
+    color: white;
+    transition: all .5s;
+}
+

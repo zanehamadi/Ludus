@@ -10,26 +10,22 @@ function Home({user}){
                 
                 <div className="homePage">
                     <h2 id="welcomeMessage">{`WELCOME BACK, ${user?.username.toUpperCase()}`}</h2>
-                    <div className="beginSearchContainer"><Link to="/search-questions" className="beginSearchButton">BEGIN SEARCH</Link></div>
+                    <Link to="/search-questions" id="beginSearchButton">
+                            BEGIN SEARCH
+                    </Link>
                 </div> 
             :
             
                 <div className="splashPage">
-                    <div>
-                        <Link to='/login' className="splashText">LOGIN</Link>
-                    </div>
-                    <div>
-                        <Link to='/sign-up' className="splashText">SIGNUP</Link>
-                    </div>
-                    <div>
-                        <Link to="/search-questions" className="splashText">BEGIN SEARCH</Link>
-                    </div>
-
+   
+                    <Link to="/search-questions" className="splashText" id="beginSearch">BEGIN SEARCH</Link>
                     <div id="splashParaDiv">
                         <p id="splashParagraph">
-                            In modern day, the options of games feel as vast as space itself. Ludus is a search algorithm here to help you on your journey to find the perfect game.
+                            These days, the options of games feel as vast as space itself. Ludus is a search algorithm here to aid you on your journey to find the perfect game. With the help of Steam's API, you can search for games through a series of genres and categories. If you end up liking a game you find, make sure to create an account and add it to your profile for later reference.
                         </p>
                     </div>
+   
+
 
                 </div>
         

@@ -11,7 +11,6 @@ function Lists({user}){
     const wantToPlayGames = games.filter(game => user.wantToPlay.includes(game.id))
     const playingGames = games.filter(game => user.playing.includes(game.id))
     const playedGames = games.filter(game => user.played.includes(game.id))
-    console.log(user)
 
     const addPlayed = async(id) => {
         
@@ -91,11 +90,9 @@ function Lists({user}){
                 await dispatch(addReview(payload))
                 break
             case -1:
-                console.log('IT HIT THIS CASE')
                 await dispatch(deleteReview(oldReview.id))
                 break
             default:
-                // Update Review
                 let updatedPayload = {
                     id : oldReview.id,
                     review:value
@@ -130,20 +127,20 @@ function Lists({user}){
         for(let i = 0 ; i < user?.wantToPlay.length ; i++){
             
             let gameId = user?.wantToPlay[i]
-            let game = dispatch(getGame(gameId))
+            dispatch(getGame(gameId))
         }
         
         for(let i = 0 ; i < user?.playing.length ; i ++){
             let gameId = user?.playing[i]
-            let game = dispatch(getGame(gameId))
+            dispatch(getGame(gameId))
         }
         
         for(let i = 0 ; i < user?.played.length ; i++){
             let gameId = user?.played[i]
-            let game = dispatch(getGame(gameId))
+            dispatch(getGame(gameId))
         }
         
-    },[dispatch])
+    },[dispatch, user])
 
     
 

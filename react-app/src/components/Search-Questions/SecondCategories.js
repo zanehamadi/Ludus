@@ -34,7 +34,6 @@ function SecondCategories({filters, setFilters,setSecondCat, categories}){
             <h2 className="searchText">
                 More Categories
             </h2>
-            {console.log(catTrack)}
             <div className="skipButton" onClick={() => setSecondCat(true)}>This section is optional, you can click here if you would like to skip.</div>
 
             {categories.map(category => 

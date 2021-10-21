@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Lists from './Lists';
 
 function User({user}) {

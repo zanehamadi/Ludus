@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { logout } from '../../store/session';
+import "./logoutButton.css"
 
 
 const LogoutButton = () => {
@@ -11,7 +11,7 @@ const LogoutButton = () => {
     await dispatch(logout());
   };
 
-  return <Link onClick={onLogout}>LOGOUT</Link>;
+  return <span onClick={onLogout} id="logoutButton">LOGOUT</span>;
 };
 
 export default LogoutButton;

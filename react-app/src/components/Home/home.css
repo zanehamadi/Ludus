@@ -51,6 +51,8 @@
     font-weight: 100;
     color: whitesmoke;
     text-shadow: 4px 4px rgb(34, 17, 1);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     
 }
 
@@ -94,6 +96,15 @@
     backdrop-filter: blur(3px);
     overflow-y: hidden;
     overflow-x: hidden;
+    overflow: auto;
+    height: 20vh;
+
+}
+
+
+#splashParaDiv::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
 }
 
 #beginSearch{
@@ -108,3 +119,6 @@
     transition: all .5s;
 }
 
+#splashParaDiv::-webkit-scrollbar-thumb {
+    background-color: rgba(235, 134, 97, 0.3);
+  }

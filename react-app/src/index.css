@@ -142,16 +142,20 @@ a:hover{
     div.headerImg{
         width: 232px;
         height: 110px;
+        margin-left: 15px;
+        margin-right: 10px;
 
     }
     div.headerImg img{
         width: 230px;
     }
     h2#gameName{
-        font-size: 30px
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 2px;
     }
     div.game-info h3{
-        font-size: 10px;
+        font-size: 15px;
     }
     div.resultsContainer{
         overflow-x: hidden;
@@ -161,6 +165,29 @@ a:hover{
     }
     div.genreSelection::-webkit-scrollbar{
         width: 2px;
+    }
+    div.game-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    div.game-info p{
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    div.searchText.specificResult{
+        margin-top: 10px;
+
+    }
+    div.userListButtonsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    button.gameListSearchButton{
+        margin-top: 8px;
     }
 
 }

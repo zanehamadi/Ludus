@@ -43,4 +43,29 @@ a:hover{
 }
 
 
+@media all and (max-width: 400px){
+    p#splashParagraph{
+        display: none;
+    }
+    div.nav{
+        width: 100vw;
+        display: flex;
+        /* height: 20vh; */
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    div.nav a{
+        font-size: 20px;
+    }
+    span#demoButton{
+        font-size: 20px;
+
+    }
+    footer.footer{
+        width: 100%;
+    }
+
+}
+
+
 

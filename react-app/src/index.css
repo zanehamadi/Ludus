@@ -1,6 +1,6 @@
 :root{
     --navbar-height:75px;
-    --footer-height:10%;
+    --footer-height: 90px;
     --body-height: calc(80vh - var(--footer-height));
     --body-width: 40vw;
 }

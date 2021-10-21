@@ -2,7 +2,7 @@
     display:flex;
     flex-direction: column;
     width: calc(var(--body-width) / 1.5);
-    height: var(--body-height);
+    height: var(--body-height / 2);
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 2vw;

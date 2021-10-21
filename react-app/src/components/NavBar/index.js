@@ -4,15 +4,14 @@ import DemoButton from "../auth/DemoButton"
 import './nav.css'
 
 function NavBar({user}){
-
     return(
         <div className="nav">
             {user ?
                 <>
-                    <div className="navLinks"><NavLink to='/'>HOME</NavLink></div>
-                    <div className="navLinks"><NavLink to='/search-questions'>SEARCH</NavLink></div>
-                    <div className="navLinks"><NavLink to={`/users/${user.id}`}>PROFILE</NavLink></div>
-                    <div className="navLinks"><LogoutButton/></div>
+                    <div className="navLinks navHome"><NavLink to='/'>HOME</NavLink></div>
+                    <div className="navLinks navHome"><NavLink to='/search-questions'>SEARCH</NavLink></div>
+                    <div className="navLinks navHome"><NavLink to={`/users/${user.id}`}>PROFILE</NavLink></div>
+                    <div className="navLinks navHome"><LogoutButton/></div>
                 </>
             :
                 <>

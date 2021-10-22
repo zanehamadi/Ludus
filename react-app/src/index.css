@@ -57,6 +57,8 @@ a:hover{
         height: 10vh;
         top: 0; 
         left: 0;
+        backdrop-filter: blur(6px);
+        border-bottom: solid 1px white;
 
     }
     div.nav a{
@@ -196,6 +198,7 @@ a:hover{
     div.homePage{
         width: 80vw;
         margin-left: 8vw;
+        margin-top: 7vh;
 
     }
 

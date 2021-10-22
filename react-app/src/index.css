@@ -264,6 +264,9 @@ a:hover{
         font-weight: 800;
 
     }
+    div.main{
+        overflow-y: hidden;
+    }
 
     button.loginDivContent.loginButton{
         font-weight: 900;

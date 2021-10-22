@@ -137,9 +137,9 @@ function Results({resultsLoaded, user}){
             :
             
             <div className='loadingScreen'>
-            <h2 className="loadingMessage">Please wait a moment while the data loads.</h2>
-            <img id="rocketGif" src='https://grandhcypher-crew.s3.us-west-1.amazonaws.com/sun-drawing-transparent.gif' alt="Loading Icon"/>
-            <h4 className="loadingMessage">This may take some time.</h4>
+                <h2 className="loadingMessage">Please wait a moment while the data loads.</h2>
+                <img id="rocketGif" src='https://grandhcypher-crew.s3.us-west-1.amazonaws.com/sun-drawing-transparent.gif' alt="Loading Icon"/>
+                <h4 className="loadingMessage">This may take some time.</h4>
             </div>
 
     

@@ -97,7 +97,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     overflow: auto;
-    height: 20vh;
+    height: fit-content
 
 }
 

@@ -23,7 +23,7 @@
     position: absolute;
     height: 100vh;
     overflow-y: auto;
-    width: 100%;
+    width: 100vw;
     margin:0;
     padding: var(--navbar-height) 3% 13.222%;
     background-image: url("./LUDUS-BG-VISOR.gif");
@@ -40,6 +40,236 @@ html{
 
 a:hover{
     cursor: pointer;
+}
+
+
+@media all and (max-width: 500px){
+    p#splashParagraph{
+        display: none;
+    }
+    div.nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 1;
+        grid-template-areas: ". . . . logout";
+        position: fixed;
+        height: 10vh;
+        top: 0; 
+        left: 0;
+
+    }
+    div.nav a{
+        font-size: 15px;
+        padding-left: 0px;
+        margin-left: 0px;
+
+    }
+    div.navLinks{
+        width: fit-content;
+    }
+    span#demoButton{
+        font-size: 15px;
+        padding-left: 0px;
+        margin-left: 0px;
+
+    }
+    span#logoutButton{
+        font-size: 15px;
+        padding-left: 0px;
+        margin-left: 0px;
+        grid-area: logout;
+    }
+    footer.footer{
+        width: 100%;
+        font-size: 8px;
+        border: none;
+        border-top: 1px solid white;
+    }
+    div.navHome{
+        margin-left: 35px
+    }
+    a#beginSearch.splashText{
+        font-size: 50px;
+        width: 50vw;
+        text-align: center;
+
+    }
+    div.splashPage{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+    div.questionsResultsContainer{
+        width: 85vw;
+        margin-left: 5vw;
+        margin-right: 10vw;
+        margin-top: 10vw;
+    }
+    div.checkboxDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    div.checkboxDiv label{
+        font-size: 20px;
+        width: 100vw;
+    }
+    a#aboutUs.navIcons{
+        font-size: 30px;
+    }
+    div.categoryQuestion{
+        width: 100%;
+    }
+    div#secondCat::-webkit-scrollbar{
+        width: 2px;
+    }
+    button.startOverButton.searchText{
+        font-size: 20px;
+        margin-bottom: 3px;
+
+    }
+    img#rocketGif{
+        width: 350px;
+        height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    div.loadingScreen{
+        margin: 0;
+    }
+    div.headerImg{
+        width: 232px;
+        height: 110px;
+        margin-left: 15px;
+        margin-right: 10px;
+
+    }
+    div.headerImg img{
+        width: 230px;
+    }
+    h2#gameName{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    div.game-info h3{
+        font-size: 15px;
+    }
+    div.resultContainer{
+        overflow-x: hidden;
+        border-top: none;
+    }
+    div.resultContainer::-webkit-scrollbar{
+        width: 2px;
+    }
+    div.genreSelection::-webkit-scrollbar{
+        width: 2px;
+    }
+    div.game-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    div.game-info p{
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    div.searchText.specificResult{
+        margin-top: 10px;
+
+    }
+    div.userListButtonsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    button.gameListSearchButton{
+        margin-top: 8px;
+    }
+    h2#welcomeMessage{
+        font-size: 20px;
+    }
+    div.homePage{
+        width: 80vw;
+        margin-left: 8vw;
+
+    }
+
+    div.profileContainer{
+        width: 95vw;
+        margin-right: 5vw;
+        margin-top: 10vw;
+    }
+    div.gamesLists{
+        display: grid;
+        grid-template-rows: 3;
+    }
+    h2#gameListHeader{
+        font-size: 25px;
+    }
+    div.profileContainer{
+        border:none;
+        width: 100vw;
+        backdrop-filter: blur(0px);
+        background-color: transparent;
+        overflow-x: hidden;
+
+    }
+    div#playingList.gameList{
+        border:none;
+
+    }
+
+    h3.gamesListHeader{
+        width: 100vw
+    }
+    div.about-us-div{
+        width: 95vw;
+        padding-left: 5vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+    
+
+    }
+    div.about-us-div p{
+        padding-right: 5vw;
+        margin-bottom: 1vh;
+        font-weight: 600;
+    }
+
+    div.about-us-div h2{
+        margin-bottom: 1vh;
+    }
+    div.about-us-div::-webkit-scrollbar{
+        width: 1px;
+
+    }
+
+    div.loginDiv{
+        width: 95vw;
+        margin-right: 5vw;
+        margin-top: 20vh;
+        border: none;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        font-weight: 800;
+
+    }
+
+    button.loginDivContent.loginButton{
+        font-weight: 900;
+    }
+
+
 }
 
 

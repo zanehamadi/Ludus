@@ -157,8 +157,9 @@ a:hover{
     div.game-info h3{
         font-size: 15px;
     }
-    div.resultsContainer{
+    div.resultContainer{
         overflow-x: hidden;
+        border-top: none;
     }
     div.resultContainer::-webkit-scrollbar{
         width: 2px;
@@ -189,6 +190,46 @@ a:hover{
     button.gameListSearchButton{
         margin-top: 8px;
     }
+    h2#welcomeMessage{
+        font-size: 20px;
+    }
+    div.homePage{
+        width: 80vw;
+        margin-left: 8vw;
+
+    }
+
+    div.profileContainer{
+        width: 95vw;
+        margin-right: 5vw;
+        margin-top: 10vw;
+    }
+    div.gamesLists{
+        display: grid;
+        grid-template-rows: 3;
+    }
+    h2#gameListHeader{
+        font-size: 25px;
+    }
+    div.profileContainer{
+        border:none;
+        width: 100vw;
+        backdrop-filter: blur(0px);
+        background-color: transparent;
+        overflow-x: hidden;
+
+    }
+    div#playingList.gameList{
+        border:none;
+
+    }
+    div.specificGame{
+    }
+
+    h3.gamesListHeader{
+        width: 100vw
+    }
+
 
 }
 

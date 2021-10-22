@@ -223,11 +223,50 @@ a:hover{
         border:none;
 
     }
-    div.specificGame{
-    }
 
     h3.gamesListHeader{
         width: 100vw
+    }
+    div.about-us-div{
+        width: 95vw;
+        padding-left: 5vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+    
+
+    }
+    div.about-us-div p{
+        padding-right: 5vw;
+        margin-bottom: 1vh;
+        font-weight: 600;
+    }
+
+    div.about-us-div h2{
+        margin-bottom: 1vh;
+    }
+    div.about-us-div::-webkit-scrollbar{
+        width: 1px;
+
+    }
+
+    div.loginDiv{
+        width: 95vw;
+        margin-right: 5vw;
+        margin-top: 20vh;
+        border: none;
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        font-weight: 800;
+
+    }
+
+    button.loginDivContent.loginButton{
+        font-weight: 900;
     }
 
 

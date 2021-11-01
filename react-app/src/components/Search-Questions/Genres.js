@@ -22,7 +22,7 @@ function Genres({filters, setFilters, setCheckGenres, genres, setResults, setRes
         const genreTrackArr = Array.from(genreTrack)
 
 
-        if(genreTrackArr.length < 2) setValidation(true)
+        if(genreTrackArr.length < 1) setValidation(true)
         else{
             setValidation(false)
             genreTrackArr.forEach(id => {
@@ -40,8 +40,8 @@ function Genres({filters, setFilters, setCheckGenres, genres, setResults, setRes
     return(
         <div className="genreSelection">
             <h2 className="searchText">Genres</h2>
-            <h4 className="searchText">Please pick a minimum of two</h4>
-            {validation && <h4 className="searchText">Please enter atleast two genres.</h4>}
+            <h4 className="searchText">Please pick a genre</h4>
+            {validation && <h4 className="searchText">Please select atleast one genre.</h4>}
 
             {genres.map(genre => 
 

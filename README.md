@@ -1,7 +1,5 @@
 # Ludus
 
-[Visit Ludus!](https://ludus-search.herokuapp.com/)
-
 ## What is Ludus?
 
 Ludus is a full stack search website that uses Steam's public API to seed data regarding games, with their categories and genres linked to them. It allows for a more in-depth search on games you are interested in playing, with the option to create an account and save the games to your profile for later reference. Once you have played the game, you can also rate it.
